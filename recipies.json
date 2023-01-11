@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Spaghetti Bolognese",
+        "description": "Spaghetti bolognese with an Italian ragù, made with minced beef, bacon and tomatoes, served with Parmesan cheese. One of the most popular pasta dishes eaten outside of Italy.",
+        "img": "https://www.sprinklesandsprouts.com/wp-content/uploads/2019/04/Authentic-Spaghetti-Bolognese-SQ.jpg",
+        "ingredients": [
+            {"name":"spaghetti", "amount":"500", "unit":"g"},
+            {"name":"ground beef", "amount":"400", "unit":"g"},
+            {"name":"tomato sauce", "amount":"200", "unit":"ml"},
+            {"name":"onions", "amount":"2", "unit":"units"},
+            {"name":"garlic", "amount":"2", "unit":"cloves"},
+            {"name":"olive oil", "amount":"3", "unit":"tbsp"}
+        ],
+        "instructions": [
+            "Cook spaghetti according to package instructions.",
+            "In a separate pan, sauté onions and garlic in olive oil until softened.",
+            "Add ground beef and cook until browned.",
+            "Add tomato sauce and simmer for 15 minutes.",
+            "Serve meat sauce over cooked spaghetti."
+        ],
+        "calories": 400,
+        "preparationTime": 30,
+        "difficulty": "Easy"
+    }, {
+        "name": "Chicken Sandwich",
+        "description": "A delicious sandwich with white bread, chicken and ketchup. Easy to make, little effort and only takes you five minutes.",
+        "img": "https://static.onecms.io/wp-content/uploads/sites/19/2007/07/01/chicken-sandwich-ay-1875810-x.jpg",
+        "ingredients": [
+            {"name":"chicken breast", "amount":"500", "unit":"g"},
+            {"name":"bread", "amount":"2", "unit":"pcs"},
+            {"name":"ketchup", "amount":"5", "unit":"ml"}
+        ],
+        "instructions": [
+            "Pour ketchup on the bread slices, slice the chicken in slices.",
+            "Place chicken inside bread and then enjoy."
+        ],
+        "calories": 360,
+        "preparationTime": 10,
+        "difficulty": "Easy"
+    }, {
+        "name": "Stovetop Butter Chicken",
+        "description": "Butter chicken is a modern Indian dish",
+        "img": "https://images.themodernproper.com/billowy-turkey/production/posts/2021/Butter-Chicken-16.jpg?w=1067&auto=compress%2Cformat&fit=crop&dm=1612504134&s=c947c24c4b5421403e363337a2066d4c",
+        "ingredients": [
+            {"name":"Chicken stock", "amount":"500", "unit":"g"},
+            {"name":"Garam masala", "amount":"10", "unit":"g"}
+        ],
+        "instructions": [
+            "",
+            ""
+        ],
+        "calories": 307,
+        "preparationTime": 40,
+        "difficulty": ""
+    }, {
+        "name": "",
+        "description": "",
+        "img": "",
+        "ingredients": [
+            {"name":"", "amount":"", "unit":""},
+            {"name":"", "amount":"", "unit":""}
+        ],
+        "instructions": [
+            "",
+            ""
+        ],
+        "calories": 0,
+        "preparationTime": 0,
+        "difficulty": ""
+    }
+]

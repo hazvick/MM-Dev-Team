@@ -14,9 +14,16 @@
         <!-- START OF TOP PART -->
         <img src="assets/imgs/nutriplan-logo.png" class="mx-auto mb-8 mt-4" width="300px">
         <div class="p-8 text-center text-4xl">Hey there, <span id="username">User Test</span>!</div> <!-- USER ID -->
-        <div class="p-8 mx-auto w-2/3">
-            <input class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal" type="text" id="search" placeholder="Search food">
+        
+        <label for="default-search" class="mb-2 text-sm font-medium text-gray-100 sr-only">Search</label>
+        <div class="relative w-96 mx-auto">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                <svg aria-hidden="true" class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+            <input type="search" id="searchInput" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-10" placeholder="Search Mockups, Logos..." required>
+            <button onclick="search()" type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Search</button>
         </div>
+
         <!-- END OF TOP PART -->
 
         <!-- START OF STATS -->
@@ -28,25 +35,14 @@
         </div>
         <!-- END OF STATS -->
 
-        <!-- START OF BOTTOM NAV -->
-        <div class="h-screen flex flex-col">
-            <!-- Your existing code here -->
-            <div class="bg-gray-200 p-8 flex justify-center bottom-0 fixed w-full gap-8">
-                <div class="text-center text-5xl mx-2" onclick="changeColor(this)">
-                    <i class="fas fa-home"></i>
-                </div>
-                <div class="text-center text-5xl mx-2" onclick="changeColor(this)">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="text-center text-5xl mx-2" onclick="changeColor(this)">
-                    <i class="fas fa-heart"></i>
-                </div>
-                <div class="text-center text-5xl mx-2" onclick="changeColor(this)">
-                    <i class="fas fa-cog"></i>
-                </div>
-            </div>
-        </div>      
-        <!-- END OF BOTTOM NAV -->
+        <!-- START OF RECIPE CONTAINER -->
+        <div id="recipe-container">
+            <ul id="recipe-list">
+                <li>
+                </li>
+            </ul>
+        </div>
+        <!-- END OF RECIPE CONTAINER -->
         
     </div> 
     <script src="script.js"></script>  
