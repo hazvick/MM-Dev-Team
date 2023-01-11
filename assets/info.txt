@@ -1,0 +1,56 @@
+Possible application names:
+    - Nutriplan
+    - Fitfuel
+    - Fuelmate
+    - Nutriwise
+    - Mealmate
+    - Biteful
+    - Dietmate
+    - Caloryze
+    - Nutritrack
+    - Biteplanner
+
+Description:
+    - Introducing our new web application that makes it easy to plan and track your meals for optimal nutrition. With our user-friendly interface, you can easily add ingredients to your meals and see the
+        total calorie, protein, fat, and other nutrient content in real-time.
+    - Our powerful search feature allows you to find the nutritional information for thousands of foods, and you can even scan barcodes to quickly access the information you need. Our custom recipe 
+        feature enables you to browse and save your favorite recipes, complete with the nutritional information for each one.
+    - We also include a goal setting feature, where you can set daily or weekly targets for your calorie and macronutrient intake, and track your progress. The application also integrates with a barcode 
+        scanner, allows you to input your physical activity level and track your water intake for an all-around nutrition tracking.
+    - Whether you're trying to lose weight, build muscle, or just maintain a healthy diet, our application has everything you need to achieve your goals. 
+        Try it out today and see the difference it can make in your life!
+
+Features:
+    - A searchable database of foods and their nutritional information, so users can easily look up the calorie, protein, fat, and other nutrient content of different ingredients.
+    - The ability to set and track daily or weekly nutrition goals, such as calorie or macronutrient intake.
+    - A list of recipes that users can browse and add to their meal plan, along with the nutritional information for each recipe.
+    - An option for users to input their physical activity levels and see how that affects their calorie needs.
+    - The ability to track and log water intake.
+    - Nutrient breakdown like : Carbohydrates, Fiber, sugar, Vitamin, mineral and other micro-nutrients
+    - Option to create a custom meal plan.
+
+Later version features:
+    - Integration with a barcode scanner, so users can easily scan the barcode of packaged foods and see their nutritional information.
+
+Revenue:
+    - Subscription model: Offer a free version of the application with limited features, and charge a monthly or annual fee for a premium version with additional features and benefits. [MOST LIKELY]
+    - Advertising: Partner with companies in the health and fitness industry to display ads within the application.
+    - Sponsored content: Allow companies to sponsor recipes or meal plans within the application, which would be marked as sponsored content.
+    - In-app purchases: Offer additional features, such as more recipe options, custom meal plans, or nutrition coaching, for a one-time or recurring fee.
+    - Affiliate marketing: include links to products related to health, such as supplements, protein powders, and books, in the application and earn a commission for each purchase made through your affiliate link.
+    - Custom meal plans and nutritional coaching: Offer personalized plans and coaching sessions as a paid service, as an option for customers looking for more one-on-one support.
+
+Subscription model:
+
+    Why a subscription model is the best choice.
+    - Recurring revenue: With a subscription model, you can expect a steady stream of recurring revenue as long as users continue to use the application.
+    - Predictable cash flow: Knowing that you have a certain number of paying subscribers can make it easier to plan and budget for the future.
+    - Value proposition: A subscription-based model gives you the ability to charge more, provided that your application offers enough value to justify the cost.
+    - Costly features: If you have features or services that are costly to implement and maintain, such as recipe databases or personalized meal plans, a subscription model allows you to recoup those costs.
+
+    The model:
+    [Tiered pricing structure, which offers different levels of service at different price points. This allows users to choose the subscription level that best fits their needs and budget.]
+    - Basic: This level of service could include access to the basic features of the application, such as the ability to add ingredients to meals and see the total calorie, protein, fat, and other nutrient content.
+    - Premium: This level of service could include access to additional features such as a larger recipe database, personalized meal plans, and the ability to track water intake.
+    - Pro: This level of service could include additional premium features such as personalized coaching sessions, and a broader range of nutrient breakdowns, such as Vitamin and mineral breakdowns, bar code scanning etc.
+
