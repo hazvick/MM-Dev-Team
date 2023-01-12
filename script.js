@@ -1,46 +1,3 @@
-fetch('caloriesConsumed.json')
-    .then(response => response.json())
-    .then(data => {
-        var consumedCalories = data.calories.consumed;
-        var remainingCalories = data.calories.remaining;
-        var totalCalories = consumedCalories + remainingCalories;
-
-        var ctx = document.getElementById('caloriesChart').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'doughnut',
-            data: {
-                labels: ['Consumed', 'Remaining'],
-                datasets: [{
-                    data: [consumedCalories, remainingCalories],
-                    backgroundColor: ['green', 'lightgray']
-                }]
-            },
-            options: {
-                cutoutPercentage: 50,
-                legend: {
-                    position: 'bottom',
-                    labels: {
-                        boxWidth: 10
-                    }
-                },
-                plugins: {
-                    annotation: {
-                        drawTime: 'afterDraw',
-                        annotations: [{
-                            type: 'text',
-                            text: `${(consumedCalories / totalCalories * 100).toFixed(1)}%`,
-                            fontSize: 20,
-                            fontColor: 'white',
-                            position: 'center',
-                            align: 'center'
-                        }]
-                    }
-                }
-            }
-        });
-    });
-
-
 
 /**
  * Söker genom recept baserat på ingrediens.
@@ -76,6 +33,56 @@ function search() {
             results.forEach(recipe => {
                 var recipeItem = document.createElement("li");
                 recipeItem.innerHTML = `
+                <div class="container mx-auto">
+                    <div class="flex flex-wrap -mx-4">
+                        <div class="w-full mx-2 sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+                            <a href="javascript:void(0)" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden" data-flipped="false" onclick="this.classList.toggle('flip')">
+                                <div class="front">
+                                    <div class="relative pb-48 overflow-hidden">
+                                        <img class="absolute inset-0 h-full w-full object-cover" src="${recipe.img}" alt="">
+                                    </div>
+                                    <div class="p-4">
+                                        <span class="inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">${recipe.difficulty}</span>
+                                        <h2 class="mt-2 mb-2  font-bold">${recipe.name}</h2>
+                                        <p class="text-sm">${recipe.description}</p>
+                                        <div class="mt-3 flex items-center">
+                                            <span class="text-sm font-semibold">ca</span>&nbsp;<span class="font-bold text-xl">${recipe.price}</span>&nbsp;<span class="text-sm font-semibold">SEK</span>
+                                        </div>
+                                    </div>
+                                    <div class="p-4 border-t border-b text-xs text-gray-700">
+                                        <span class="flex items-center mb-1">
+                                            <i class="far fa-clock fa-fw mr-2 text-gray-900"></i> ${recipe.preparationTime} minutes
+                                        </span>
+                                        <span class="flex items-center">
+                                            <i class="far fa-address-card fa-fw text-gray-900 mr-2"></i> ${recipe.calories} kcal, fat ${recipe.fat}g, carbs ${recipe.carbs}g, protein ${recipe.protein}g
+                                        </span>        
+                                    </div>
+                                    <div class="relative">
+                                        <div class="overflow-hidden" id="accordion-content" aria-hidden="true">
+                                            <div class="p-4 flex text-sm text-gray-600">
+                                            <ul class="list-inside list-disc">
+                                                ${recipe.ingredients.map(ingredient => `<li class="w-40">${ingredient.amount} ${ingredient.unit} ${ingredient.name}</li>`).join('')}
+                                            </ul>
+                                            <ul class="list-inside list-disc">
+                                                ${recipe.instructions.map((instruction, index) => `<li>${index + 1}. ${instruction}</li><br>`).join('')}
+                                            </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                `;
+                recipeContainer.appendChild(recipeItem);
+            });
+        })
+        .catch(error => console.log(error));
+}
+
+recipeItem.innerHTML = `
                 <a href="#" class="flex flex-row mx-auto mb-4 ml-2 mr-2 items-center bg-white border rounded shadow-md hover:bg-gray-100">
                     <img class="object-cover rounded w-36 h-36 ml-4 mt-2 mr-2 mb-2" src="${recipe.img}" alt="">
                     <div class="flex flex-col mx-auto max-w-sm justify-between p-4 leading-normal">
@@ -93,9 +100,4 @@ function search() {
                         </div>
                     </div>
                 </a>
-                `;
-                recipeContainer.appendChild(recipeItem);
-            });
-        })
-        .catch(error => console.log(error));
-}
+                `

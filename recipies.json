@@ -1,59 +1,74 @@
 [
     {
-        "name": "Spaghetti Bolognese",
-        "description": "Spaghetti bolognese with an Italian ragù, made with minced beef, bacon and tomatoes, served with Parmesan cheese. One of the most popular pasta dishes eaten outside of Italy.",
-        "img": "https://www.sprinklesandsprouts.com/wp-content/uploads/2019/04/Authentic-Spaghetti-Bolognese-SQ.jpg",
+        "name": "Roasted Carrots with Lemon & Dill",
+        "price": 80,
+        "description": "Learn how to roast carrots in the oven with this healthy recipe. The carrots turn crisp-tender with a slight char on the outside, while the combination of fresh cilantro and coriander seeds adds an aromatic flavor. Feta crumbles finish this easy vegetable side dish.",
+        "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2023%2F01%2F05%2FOven-baked-carrots-with-lemon-and-dill-1x1-beauty-0764.jpg",
         "ingredients": [
-            {"name":"spaghetti", "amount":"500", "unit":"g"},
-            {"name":"ground beef", "amount":"400", "unit":"g"},
-            {"name":"tomato sauce", "amount":"200", "unit":"ml"},
-            {"name":"onions", "amount":"2", "unit":"units"},
-            {"name":"garlic", "amount":"2", "unit":"cloves"},
-            {"name":"olive oil", "amount":"3", "unit":"tbsp"}
+            {"name":"carrot", "amount":"1,5", "unit":"pound"},
+            {"name":"olive oil", "amount":"3", "unit":"tbsp"},
+            {"name":"salt", "amount":"1/4", "unit":"tsp"},
+            {"name":"pepper", "amount":"1/4", "unit":"tbs"},
+            {"name":"lemon", "amount":"1/2", "unit":"pcs"},
+            {"name":"dill", "amount":"1/2", "unit":"pcs"},
+            {"name":"cilantro", "amount":"1", "unit":"tbsp"},
+            {"name":"coriander", "amount":"2", "unit":"tbs"},
+            {"name":"feta cheese", "amount":"1/4", "unit":"cup"}
         ],
         "instructions": [
-            "Cook spaghetti according to package instructions.",
-            "In a separate pan, sauté onions and garlic in olive oil until softened.",
-            "Add ground beef and cook until browned.",
-            "Add tomato sauce and simmer for 15 minutes.",
-            "Serve meat sauce over cooked spaghetti."
+            "Preheat oven to 450°F. ",
+            "Combine carrots, 1 tablespoon oil, salt and pepper on a large rimmed baking sheet; spread the carrots in an even layer. Place lemon halves on the baking sheet, flesh-sides down. Bake, stirring once, until the carrots are slightly charred and crisp-tender, about 15 minutes. Remove from oven and let cool, about 5 minutes.  ",
+            "Squeeze the charred lemon halves through a fine-mesh sieve into a medium bowl; discard solids. Stir in dill, cilantro, coriander seeds and the remaining 2 tablespoons oil. ",
+            "Transfer the carrots to a cutting board; cut diagonally into 2-inch pieces. Add the carrots to the lemon mixture and toss to combine. Sprinkle evenly with feta. Garnish with dill, if desired."
         ],
-        "calories": 400,
+        "calories": 198,
+        "fat": 9,
+        "carbs": 19,
+        "protein": 3,
         "preparationTime": 30,
-        "difficulty": "Easy"
-    }, {
-        "name": "Chicken Sandwich",
-        "description": "A delicious sandwich with white bread, chicken and ketchup. Easy to make, little effort and only takes you five minutes.",
-        "img": "https://static.onecms.io/wp-content/uploads/sites/19/2007/07/01/chicken-sandwich-ay-1875810-x.jpg",
+        "difficulty": "Medium",
+        "egg-free": true,
+        "gluten-free": true,
+        "nut-free": true,
+        "soy-free": true,
+        "vegetarian": true
+    },{
+        "name": "Sauteed Chicken Breasts with Creamy Chive Sauce",
+        "price": 135,
+        "description": "Here's a sauce so delicious, it's missing only one thing: a little crunchy bread to dip in it. Make It a Meal: Serve with steamed asparagus or cauliflower, mashed potatoes or orzo pasta, and a glass of Vinho Verde. ",
+        "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2019%2F08%2F26231056%2F3746559.jpg&w=272&h=272&c=sc&poi=face&q=60",
         "ingredients": [
-            {"name":"chicken breast", "amount":"500", "unit":"g"},
-            {"name":"bread", "amount":"2", "unit":"pcs"},
-            {"name":"ketchup", "amount":"5", "unit":"ml"}
+            {"name":"chicken breast", "amount":"4", "unit":"pcs"},
+            {"name":"salt", "amount":"1", "unit":"tsp"},
+            {"name":"flour", "amount":"1/4", "unit":"cup"},
+            {"name":"olive oil", "amount":"3", "unit":"tsp"},
+            {"name":"shallots", "amount":"2", "unit":"pcs"},
+            {"name":"white wine", "amount":"1/2", "unit":"cup"},
+            {"name":"broth", "amount":"1", "unit":"ounce"},
+            {"name":"sour cream", "amount":"1/3", "unit":"cup"},
+            {"name":"dijon mustard", "amount":"1", "unit":"tbsp"},
+            {"name":"chives", "amount":"1/2", "unit":"cup"}
         ],
         "instructions": [
-            "Pour ketchup on the bread slices, slice the chicken in slices.",
-            "Place chicken inside bread and then enjoy."
+            "Place chicken between sheets of plastic wrap and pound with a meat mallet or heavy skillet until flattened to an even thickness, about 1/2 inch. Season both sides of the chicken with 1/2 teaspoon salt. Place 1/4 cup flour in a shallow glass baking dish and dredge the chicken in it. Discard the excess flour.",
+            "Heat 2 teaspoons oil in a large nonstick skillet over medium-high heat. Add the chicken and cook until golden brown, 1 to 2 minutes per side. Transfer to a plate, cover and keep warm.",
+            "Heat the remaining 1 teaspoon oil in the pan over medium-high heat. Add shallots and cook, stirring constantly and scraping up any browned bits, until golden brown, 1 to 2 minutes. Sprinkle with the remaining 1 tablespoon flour; stir to coat. Add wine, broth and the remaining 1/2 teaspoon salt; bring to a boil, stirring often.",
+            "Return the chicken and any accumulated juices to the pan, reduce heat to a simmer, and cook until heated through and no longer pink in the center, about 6 minutes. Stir in sour cream and mustard until smooth; turn the chicken to coat with the sauce. Stir in chives and serve immediately."
         ],
-        "calories": 360,
-        "preparationTime": 10,
-        "difficulty": "Easy"
-    }, {
-        "name": "Stovetop Butter Chicken",
-        "description": "Butter chicken is a modern Indian dish",
-        "img": "https://images.themodernproper.com/billowy-turkey/production/posts/2021/Butter-Chicken-7.jpg?w=1600&auto=compress%2Cformat&fit=crop&dm=1612503108&s=a2b3f61b6d8ca27f900b68cf75e35a21",
-        "ingredients": [
-            {"name":"Chicken stock", "amount":"500", "unit":"g"},
-            {"name":"Garam masala", "amount":"10", "unit":"g"}
-        ],
-        "instructions": [
-            "",
-            ""
-        ],
-        "calories": 307,
-        "preparationTime": 40,
-        "difficulty": "Medium"
-    }, {
+        "calories": 257,
+        "fat": 2.8,
+        "carbs": 11.8,
+        "protein": 26.3,
+        "preparationTime": 35,
+        "difficulty": "Medium",
+        "egg-free": false,
+        "gluten-free": false,
+        "nut-free": false,
+        "soy-free": false,
+        "vegetarian": false
+    },{
         "name": "",
+        "price": 80,
         "description": "",
         "img": "",
         "ingredients": [
@@ -65,7 +80,15 @@
             ""
         ],
         "calories": 0,
+        "fat": 0,
+        "carbs": 0,
+        "protein": 0,
         "preparationTime": 0,
-        "difficulty": ""
+        "difficulty": "",
+        "egg-free": false,
+        "gluten-free": false,
+        "nut-free": false,
+        "soy-free": false,
+        "vegetarian": false
     }
 ]
