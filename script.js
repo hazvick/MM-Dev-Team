@@ -42,11 +42,11 @@ function search() {
                                         <img class="absolute inset-0 h-full w-full object-cover" src="${recipe.img}" alt="">
                                     </div>
                                     <div class="p-4">
-                                        <span class="inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">${recipe.difficulty}</span>
+                                        <span class="inline-block px-2 py-1 leading-none bg-gray-200 text-gray-800 rounded-full font-semibold uppercase tracking-wide text-xs">${recipe.difficulty}</span>
                                         <h2 class="mt-2 mb-2  font-bold">${recipe.name}</h2>
                                         <p class="text-sm">${recipe.description}</p>
                                         <div class="mt-3 flex items-center">
-                                            <span class="text-sm font-semibold">ca</span>&nbsp;<span class="font-bold text-xl">${recipe.price}</span>&nbsp;<span class="text-sm font-semibold">SEK</span>
+                                            <span class="text-sm font-semibold">≈</span>&nbsp;<span class="font-bold text-xl">${recipe.price}</span>&nbsp;<span class="text-sm font-semibold">SEK</span>
                                         </div>
                                     </div>
                                     <div class="p-4 border-t border-b text-xs text-gray-700">
@@ -57,6 +57,7 @@ function search() {
                                             <i class="far fa-address-card fa-fw text-gray-900 mr-2"></i> ${recipe.calories} kcal, fat ${recipe.fat}g, carbs ${recipe.carbs}g, protein ${recipe.protein}g
                                         </span>        
                                     </div>
+                                    
                                     <div class="relative">
                                         <div class="overflow-hidden" id="accordion-content" aria-hidden="true">
                                             <div class="p-4 flex text-sm text-gray-600">

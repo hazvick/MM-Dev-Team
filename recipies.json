@@ -67,6 +67,36 @@
         "soy-free": false,
         "vegetarian": false
     },{
+        "name": "Creamy Avocado & White Bean Wrap",
+        "price": 105,
+        "description": "White beans mashed with ripe avocado and blended with sharp Cheddar and onion makes an incredibly rich, flavorful filling for this wrap. The tangy, spicy slaw adds crunch. A pinch (or more) of ground chipotle pepper and an extra dash of cider vinegar can be used in place of the canned chipotles in adobo sauce. Wrap these up to take as a healthy and portable lunch for work. ",
+        "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2009%2F11%2F28020827%2F38454791.jpg&w=272&h=272&c=sc&poi=face&q=60",
+        "ingredients": [
+            {"name":"vinegar", "amount":"2", "unit":"tbsp"},
+            {"name":"canola oil", "amount":"1", "unit":"tbsp"},
+            {"name":"chipotle chili", "amount":"2", "unit":"pcs"},
+            {"name":"salt", "amount":"1/4", "unit":"tsp"},
+            {"name":"carrot", "amount":"1", "unit":"pcs"},
+            {"name":"avocado", "amount":"1", "unit":"pcs"},
+            {"name":"tortilla", "amount":"4", "unit":"pcs"}
+        ],
+        "instructions": [
+            "Whisk vinegar, oil, chipotle chile and salt in a medium bowl. Add cabbage, carrot and cilantro; toss to combine.",
+            "Mash beans and avocado in another medium bowl with a potato masher or fork. Stir in cheese and onion.",
+            "To assemble the wraps, spread about 1/2 cup of the bean-avocado mixture onto a wrap (or tortilla) and top with about 2/3 cup of the cabbage-carrot slaw. Roll up. Repeat with remaining ingredients. Cut the wraps in half to serve, if desired."
+        ],
+        "calories": 364,
+        "fat": 4.2,
+        "carbs": 44.8,
+        "protein": 11.5,
+        "preparationTime": 25,
+        "difficulty": "Easy",
+        "egg-free": false,
+        "gluten-free": false,
+        "nut-free": false,
+        "soy-free": false,
+        "vegetarian": true
+    },{
         "name": "",
         "price": 80,
         "description": "",
