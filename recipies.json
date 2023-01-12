@@ -40,7 +40,7 @@
     }, {
         "name": "Stovetop Butter Chicken",
         "description": "Butter chicken is a modern Indian dish",
-        "img": "https://images.themodernproper.com/billowy-turkey/production/posts/2021/Butter-Chicken-16.jpg?w=1067&auto=compress%2Cformat&fit=crop&dm=1612504134&s=c947c24c4b5421403e363337a2066d4c",
+        "img": "https://images.themodernproper.com/billowy-turkey/production/posts/2021/Butter-Chicken-7.jpg?w=1600&auto=compress%2Cformat&fit=crop&dm=1612503108&s=a2b3f61b6d8ca27f900b68cf75e35a21",
         "ingredients": [
             {"name":"Chicken stock", "amount":"500", "unit":"g"},
             {"name":"Garam masala", "amount":"10", "unit":"g"}
@@ -51,7 +51,7 @@
         ],
         "calories": 307,
         "preparationTime": 40,
-        "difficulty": ""
+        "difficulty": "Medium"
     }, {
         "name": "",
         "description": "",
