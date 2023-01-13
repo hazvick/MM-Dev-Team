@@ -1,4 +1,12 @@
 
+let ingredientPrices = {
+    "gurka": 12,
+    "tomat": 13
+}
+
+
+
+
 /**
  * Söker genom recept baserat på ingrediens.
  * Använder först toLowerCase() sen jämför med includes().
@@ -36,7 +44,7 @@ function search() {
                 <div class="container mx-auto">
                     <div class="flex flex-wrap -mx-4">
                         <div class="w-full mx-2 sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
-                            <a href="javascript:void(0)" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden" data-flipped="false" onclick="this.classList.toggle('flip')">
+                            <div href="javascript:void(0)" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden" data-flipped="false">
                                 <div class="front">
                                     <div class="relative pb-48 overflow-hidden">
                                         <img class="absolute inset-0 h-full w-full object-cover" src="${recipe.img}" alt="">
@@ -51,28 +59,30 @@ function search() {
                                     </div>
                                     <div class="p-4 border-t border-b text-xs text-gray-700">
                                         <span class="flex items-center mb-1">
+                                            <i class="fa-solid fa-user-group mr-2 text-gray-900"></i> ${recipe.portions} portioner
+                                        </span>
+                                        <span class="flex items-center mb-1">
                                             <i class="far fa-clock fa-fw mr-2 text-gray-900"></i> ${recipe.preparationTime} minutes
                                         </span>
                                         <span class="flex items-center">
                                             <i class="far fa-address-card fa-fw text-gray-900 mr-2"></i> ${recipe.calories} kcal, fat ${recipe.fat}g, carbs ${recipe.carbs}g, protein ${recipe.protein}g
                                         </span>        
                                     </div>
-                                    
+                                    <button id="accordion-button" class="w-full p-4 border-t border-b text-xs text-gray-700" onclick="acc()">Visa ingredienser och instruktioner.</button>
                                     <div class="relative">
-                                        <div class="overflow-hidden" id="accordion-content" aria-hidden="true">
+                                        <div class="overflow-hidden hidden" id="accordion-content" aria-hidden="true">
                                             <div class="p-4 flex text-sm text-gray-600">
-                                            <ul class="list-inside list-disc">
-                                                ${recipe.ingredients.map(ingredient => `<li class="w-40">${ingredient.amount} ${ingredient.unit} ${ingredient.name}</li>`).join('')}
-                                            </ul>
-                                            <ul class="list-inside list-disc">
-                                                ${recipe.instructions.map((instruction, index) => `<li>${index + 1}. ${instruction}</li><br>`).join('')}
-                                            </ul>
+                                                <ul class="text-xs">
+                                                    ${recipe.ingredients.map(ingredient => `<li class="w-40">${ingredient.name}</li>`).join('')}
+                                                </ul>
+                                                <ul class="text-xs">
+                                                    ${recipe.instructions.map((instruction, index) => `<li>${index + 1}. ${instruction}</li><br>`).join('')}
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -82,23 +92,3 @@ function search() {
         })
         .catch(error => console.log(error));
 }
-
-recipeItem.innerHTML = `
-                <a href="#" class="flex flex-row mx-auto mb-4 ml-2 mr-2 items-center bg-white border rounded shadow-md hover:bg-gray-100">
-                    <img class="object-cover rounded w-36 h-36 ml-4 mt-2 mr-2 mb-2" src="${recipe.img}" alt="">
-                    <div class="flex flex-col mx-auto max-w-sm justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">${recipe.name}</h5>
-                        <p class="mb-3 w-48 font-normal text-gray-700 text-sm leading-relaxed">${recipe.description}</p>
-                        <div class="grid grid-flow-col auto-cols-max gap-1">
-                            <span class="w-18 h-8 bg-gray-200 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2">
-                                <svg class="w-3 h-3 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
-                                ${recipe.preparationTime} m
-                            </span>
-                            <span class="w-20 h-8 bg-orange-200 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2">
-                                <svg class="w-3 h-3 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 192c0-35.3 28.7-64 64-64c.5 0 1.1 0 1.6 0C73 91.5 105.3 64 144 64c15 0 29 4.1 40.9 11.2C198.2 49.6 225.1 32 256 32s57.8 17.6 71.1 43.2C339 68.1 353 64 368 64c38.7 0 71 27.5 78.4 64c.5 0 1.1 0 1.6 0c35.3 0 64 28.7 64 64c0 11.7-3.1 22.6-8.6 32H8.6C3.1 214.6 0 203.7 0 192zm0 91.4C0 268.3 12.3 256 27.4 256H484.6c15.1 0 27.4 12.3 27.4 27.4c0 70.5-44.4 130.7-106.7 154.1L403.5 452c-2 16-15.6 28-31.8 28H140.2c-16.1 0-29.8-12-31.8-28l-1.8-14.4C44.4 414.1 0 353.9 0 283.4z"/></svg>
-                                ${recipe.calories} kcal
-                            </span>
-                        </div>
-                    </div>
-                </a>
-                `

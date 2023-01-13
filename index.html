@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@0.5.7/chartjs-plugin-annotation.min.js"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="h-screen flex flex-col">
@@ -18,33 +24,14 @@
         <img src="assets/imgs/nutriplan-logo.png" class="mx-auto mb-8 mt-4" width="300px">
         
         <label for="default-search" class="mb-2 text-sm font-medium text-gray-100 sr-only">Search</label>
-        <div class="relative w-80 mx-auto">
+        <div class="relative w-80 mx-auto mb-6">
             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <svg aria-hidden="true" class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
             </div>
             <input type="search" id="searchInput" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-10" placeholder="Type ingredient..." required>
             <button onclick="search()" type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Search</button>
         </div>
-
         <!-- END OF TOP PART -->
-
-        <!-- START OF STATS -->
-        <h1 class="mb-4 mt-12 text-xl text-center font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-600">You have consumed <span class="px-3 py-1 text-white bg-green-600 rounded dark:bg-green-500" id="caloriesChart">0</span> kcal today.</h1> <!-- CALORIES ID -->
-        <div class="p-8 flex justify-center gap-8">
-            <h1 class="flex flex-col items-center text-sm font-bold dark:text-gray-600">
-                <span id="fat" class="bg-orange-500 text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-orange-500 dark:text-white ml-2 align-start">0g</span>
-                Fat
-            </h1>
-            <h1 class="flex flex-col items-center text-sm font-bold dark:text-gray-600">
-                <span id="carbs" class="bg-teal-500 text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-teal-500 dark:text-white ml-2 align-start">0g</span>
-                Carbs
-            </h1>
-            <h1 class="flex flex-col items-center text-sm font-bold dark:text-gray-600">
-                <span id="protein" class="bg-lime-500 text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-lime-500 dark:text-white ml-2 align-start">0g</span>
-                Protein
-            </h1>
-        </div>
-        <!-- END OF STATS -->
 
         <!-- START OF RECIPE CONTAINER -->
         <div id="recipe-container">
@@ -56,9 +43,17 @@
         </div>
         <!-- END OF RECIPE CONTAINER -->
         
-        
-        
     </div> 
     <script src="script.js"></script>  
+    <script>
+        function acc() {
+            var accordionContent = document.getElementById("accordion-content");
+            document.addEventListener("click", function(event) {
+                if (event.target.id === "accordion-button") {
+                    accordionContent.classList.toggle("hidden");
+                }
+            });
+        }
+    </script>
 </body>
 </html>
