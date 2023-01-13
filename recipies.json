@@ -38,6 +38,42 @@
         "carbs": 30,
         "protein": 43,
         "preparationTime": 20,
-        "difficulty": "Medium"
+        "difficulty": "Mellan"
+    },{
+        "name": "Räksallad med avokado och ägg",
+        "price": 309,
+        "portions": 2,
+        "description": "Mättande räksallad med avokado, ägg och en underbar dressing som ger massor med smak! Obs, använd tinade sojabönor! ",
+        "img": "https://static.mathem.se/shared/images/recipes/doublelarge/raksalladmed-avokado-agg-och-vasterbottensdressing-foto-nurlan-emir-mathem.jpeg",
+        "ingredients": [
+            {"name": "2 st Ägg "},
+            {"name":"240 g Handskalade Räkor "},
+            {"name":"1 st Avokado "},
+            {"name":"0.5 st Romansallat "},
+            {"name":"75 g Sugarsnaps "},
+            {"name":"0.5 st Rödlök "},
+            {"name":"50 g Edamamebönor "},
+            {"name":"50 g Västerbottensost "},
+            {"name":"2 msk Vatten "},
+            {"name":"0.5 msk Olivolja "},
+            {"name":"0.5 st Citron "},
+            {"name":"0.5 st krukor Persilja "},
+            {"name":"1 krm Salt Fint "},
+            {"name":"1 krm Svartpeppar Malen "}
+        ],
+        "instructions": [
+            "Tina sojabönorna.",
+            "Dressing: Mixa samman riven ost, vatten, olja, citronsaft och persilja till en slät dressing med hjälp av en stavmixer. Smaka av med salt och peppar.",
+            "Räksallad: Koka äggen mjuka. Spola dem i kallt vatten. Skala och halvera äggen.",
+            "Sila av räkspadet. Skiva avokadon. ",
+            "Strimla sallad och sugarsnaps. Skala och strimla rödlöken. Blanda sallad, sugarsnaps, rödlök och tinade sojabönor med dressingen i en skål. ",
+            "Lägg upp salladsbasen i djupa tallrikar och toppa med räkor, avokado och kokta ägghalvor. Ät och njut."
+        ],
+        "calories": 492,
+        "fat": 28,
+        "carbs": 11,
+        "protein": 45,
+        "preparationTime": 20,
+        "difficulty": "Mellan"
     }
 ]
