@@ -48,11 +48,7 @@
     <script>
         function acc() {
             var accordionContent = document.getElementById("accordion-content");
-            document.addEventListener("click", function(event) {
-                if (event.target.id === "accordion-button") {
-                    accordionContent.classList.toggle("hidden");
-                }
-            });
+            accordionContent.classList.toggle("hidden");
         }
     </script>
 </body>

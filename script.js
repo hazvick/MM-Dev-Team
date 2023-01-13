@@ -41,7 +41,7 @@ function search() {
             results.forEach(recipe => {
                 var recipeItem = document.createElement("li");
                 recipeItem.innerHTML = `
-                <div class="container mx-auto">
+                <div class="container mx-auto mb-10">
                     <div class="flex flex-wrap -mx-4">
                         <div class="w-full mx-2 sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
                             <div href="javascript:void(0)" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden" data-flipped="false">
