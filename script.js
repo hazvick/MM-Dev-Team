@@ -87,7 +87,7 @@ function search() {
                                         <div class="overflow-hidden hidden" id="accordion-content" aria-hidden="true">
                                             <div class="p-4 flex text-sm text-gray-600">
                                                 <ul class="text-xs">
-                                                    ${recipe.ingredients.map(ingredient => `<li class="w-40">${ingredient.name}</li>`).join('')}
+                                                    ${recipe.ingredients.map(ingredient => `<li class="w-40 mb-1">${ingredient.name}</li>`).join('')}
                                                 </ul>
                                                 <ul class="text-xs">
                                                     ${recipe.instructions.map((instruction, index) => `<li>${index + 1}. ${instruction}</li><br>`).join('')}

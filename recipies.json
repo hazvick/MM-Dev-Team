@@ -75,5 +75,104 @@
         "protein": 45,
         "preparationTime": 20,
         "difficulty": "Mellan"
+    },{
+        "name": "Krämig köttfärssås med raw slaw-pasta",
+        "price": 260,
+        "portions": 2,
+        "description": "Att blanda pasta med råa grönsaker är ett bra sätt att få in mer grönsaker på tallriken. Här blandar vi pastan med råa strimlor av rödbeta, morot och broccoli och serverar till en köttfärssås. Underbart gott! Tips! Om du köper fryst färs, tina den gärna i kylen över natten.",
+        "img": "https://static.mathem.se/shared/images/recipes/doublelarge/kramig-kottfarssas2-med-raw-slaw-pasta-foto-nurlan-emir-mathem.jpeg",
+        "ingredients": [
+            {"name": "0.5 st Gul lök "},
+            {"name":"1 st klyftor Vitlök Vanlig "},
+            {"name":"0.5 msk Olivolja "},
+            {"name":"250 g Köttfärs - Nöt "},
+            {"name":"0.5 tsk Timjan - torkad "},
+            {"name":"0.5 msk Balsamvinäger "},
+            {"name":"1.5 msk Tomatpuré "},
+            {"name":"1 msk Senap Dijon "},
+            {"name":"1 msk Kalvfond Buljong "},
+            {"name":"1 dl Vatten "},
+            {"name":"1.5 dl Creme Fraiche Naturell "},
+            {"name":"0.5 krm Salt Fint "},
+            {"name":"0.5 krm Svartpeppar Malen "},
+            {"name":"1 tsk Salt Fint "},
+            {"name":"2 portion Spaghetti "},
+            {"name":"150 g Raw slaw "},
+            {"name":"0.5 msk Olivolja "},
+            {"name":"0.5 st krukor Persilja - färsk "}
+        ],
+        "instructions": [
+            "Tillbehör: Koka upp saltat vatten till pastan.",
+            "Köttfärssås: Skala och finhacka lök och vitlök. ",
+            "Hetta upp oljan i en stekpanna och bryn färsen så att den blir genomstekt. Tillsätt lök, vitlök och timjan och fräs ytterligare 1 min. ",
+            "Tillsätt balsamvinäger, tomatpuré, dijonsenap, fond, vatten, creme fraiche, salt och peppar. Låt köttfärssåsen puttra på medelvärme i ca 10 min. Smaka av med salt och peppar.",
+            "Tillbehör: Koka pastan enligt anvisning på förpackningen. ",
+            "Sila av pastavattnet och blanda pastan med raw slaw och olja.",
+            "Servera köttfärssåsen med raw slaw-pasta. Toppa med finhackad persilja."
+        ],
+        "calories": 842,
+        "fat": 47,
+        "carbs": 64,
+        "protein": 38,
+        "preparationTime": 30,
+        "difficulty": "Mellan"
+    },{
+        "name": "Shakshuka med harissa och kikärtor",
+        "price": 244,
+        "portions": 4,
+        "description": "En smakrik vegetarisk rätt som är lika lättlagad som god. Perfekt som lunch eller middag.",
+        "img": "https://static.mathem.se/shared/images/recipes/doublelarge/shakshuka-med-harissa-och-kikartor-foto-nurlan-mathem.jpeg",
+        "ingredients": [
+            {"name": "1 st Gul lök "},
+            {"name": "3 st klyftor Vitlök Vanlig "},
+            {"name": "1 st Röd Paprika "},
+            {"name": "380 g Kikärtor Kokta "},
+            {"name": "1 msk Olivolja "},
+            {"name": "1 tsk Paprikakrydda "},
+            {"name": "1 tsk Spiskummin "},
+            {"name": "2 tsk Harissa "},
+            {"name": "1 msk Tomatpuré "},
+            {"name": "390 g Krossade Tomater "},
+            {"name": "1 dl Vatten "},
+            {"name": "1 msk Grönsaksbuljong "},
+            {"name": "1 msk Balsamvinäger "},
+            {"name": "1 krm Salt Fint "},
+            {"name": "5 st Ägg "},
+            {"name": "50 g Krasse "}
+        ],
+        "instructions": [
+            "Värm ugnen till 175 grader. ",
+            "Shakshuka: Skala och finhacka lök och vitlök. Tärna paprikan. Sila av kikärtorna och spola i kallt vatten.",
+            "Hetta upp olja i en stekpanna och fräs lök, vitlök, paprika och kikärtor ca 2 min. Tillsätt paprikapulver och spiskummin och fräs i ytterligare 1 min. Tillsätt harissa och tomatpuré och fräs i ytterligare 1 min.",
+            "Tillsätt konserverade körsbärstomater, vatten, grönsaksbuljong och balsamvinäger. Låt såsen puttra i 10 min. Smaka av med salt.",
+            "Gör 5 “hål” i såsen med en sked och knäck i äggen. Sätt in shakshukan i ugnen i ca 10 min.",
+            "Klipp krasse över shakshukan och servera gärna med ett gott bröd."
+        ],
+        "calories": 456,
+        "fat": 14,
+        "carbs": 54,
+        "protein": 23,
+        "preparationTime": 30,
+        "difficulty": "Easy"
+    },{
+        "name": "",
+        "price": 0,
+        "portions": 0,
+        "description": "",
+        "img": "",
+        "ingredients": [
+            {"name": ""},
+            {"name":""}
+        ],
+        "instructions": [
+            "",
+            ""
+        ],
+        "calories": 0,
+        "fat": 0,
+        "carbs": 0,
+        "protein": 0,
+        "preparationTime": 0,
+        "difficulty": ""
     }
 ]
