@@ -8,8 +8,8 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 .box {
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,8 +29,8 @@ body {
     display: -webkit-flex;
     align-items: center;
     justify-content: center;
-    color: #6795d1;
-    font-size: 64px;
+    color: #879dbb;
+    font-size: 48px;
 }
 .box .water {
     position: absolute;
